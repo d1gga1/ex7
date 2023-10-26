@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gioco Sasso, Carta, Forbice</title>
+</head>
+<body>
+    <h1>Gioco Sasso, Carta, Forbice</h1>
+    <form action="risultato.php" method="post">
+        <label for="giocatore1">Nome Giocatore 1:</label>
+        <input type="text" name="giocatore1" id="giocatore1" required>
+        <br>
+
+        <label for="scelta1">Scelta Giocatore 1:</label>
+        <input type="radio" name="scelta1" value="sasso"> Sasso
+        <input type="radio" name="scelta1" value="carta"> Carta
+        <input type="radio" name="scelta1" value="forbice"> Forbice
+        <br>
+
+        <label for="giocatore2">Nome Giocatore 2:</label>
+        <input type="text" name="giocatore2" id="giocatore2" required>
+        <br>
+
+        <label for="scelta2">Scelta Giocatore 2:</label>
+        <input type="radio" name="scelta2" value="sasso"> Sasso
+        <input type="radio" name="scelta2" value="carta"> Carta
+        <input type="radio" name="scelta2" value="forbice"> Forbice
+        <br>
+
+        <input type="submit" value="Gioca">
+    </form>
+</body>
+</html>
